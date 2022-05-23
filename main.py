@@ -5,6 +5,7 @@ import undetected_chromedriver as uc
 
 def search():
     driver = uc.Chrome()
+    driver.get("https://www.rusprofile.ru/?1")
 
 
 
